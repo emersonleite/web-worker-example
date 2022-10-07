@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + TS</title>
+  </head>
+  <body>
+    <main class="main-wrapper">
+      <div id="app">
+        <button id="fetch-action">Fetch action</button>
+        <button id="fetch-worker-action">Fetch worker action</button>
+        <button id="clear-action">Clear</button>
+      </div>
+      <div><p class="time-wrapper"></p></div>
+      <div class="list-wrapper">
+        <div id="posts"></div>
+        <div id="comments"></div>
+        <div id="albums"></div>
+        <div id="photos"></div>
+        <div id="todos"></div>
+      </div>
+    </main>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
