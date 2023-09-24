@@ -1,0 +1,39 @@
+.header {
+  font-family: "Courier New", Courier, monospace;
+  padding: 20px;
+  background-color: #202020;
+  color: #f1f1f1;
+  width: 100%;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 1.5rem;
+}
+
+.header a {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+.footer {
+  background-color: #353535;
+  color: #f2f2f2;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  margin-top: 30px;
+  padding: 15px;
+  width: 100%;
+}
+
+.footer p,
+.footer a {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}

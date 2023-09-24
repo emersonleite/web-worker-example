@@ -1,3 +1,5 @@
+@import url("./main.scss");
+
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
   font-size: 16px;
@@ -27,6 +29,7 @@ a:hover {
 body {
   margin: 0;
   display: flex;
+  flex-direction: column;
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
@@ -35,13 +38,6 @@ body {
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
-}
-
-#app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
 }
 
 .logo {
@@ -99,9 +95,9 @@ button:focus-visible {
 .main-wrapper {
   display: flex;
   flex-direction: column;
-  height: 100vh;
   max-width: 1200px;
   margin: 0 auto;
+  flex: 1;
 }
 
 .time-wrapper {
@@ -111,4 +107,9 @@ button:focus-visible {
 .label-wrapper {
   font-size: 2rem;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.button-wrapper {
+  display: flex;
+  justify-content: center;
 }
