@@ -1,2 +1,6 @@
 import { defineConfig } from "vite";
-export default defineConfig({});
+import { VitePWA } from "vite-plugin-pwa";
+
+export default defineConfig({
+  plugins: [VitePWA({ registerType: "autoUpdate" })],
+});
